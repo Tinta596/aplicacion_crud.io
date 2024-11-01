@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índice Principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #2c3e50, #34495e); /* Degradado oscuro */
+            color: #ecf0f1; /* Color claro para el texto */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Altura de la ventana */
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+            color: #e74c3c; /* Rojo oscuro para el encabezado */
+        }
+
+        button {
+            background-color: #e74c3c; /* Botón rojo */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Transición suave */
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #c0392b; /* Rojo más oscuro al pasar el mouse */
+        }
+
+        .container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido al Sistema CRUD</h1>
+        <button onclick="window.location.href='Crud_clientes.php'">Gestión de Clientes</button>
+        <button onclick="window.location.href='Crud_proveedores.php'">Gestión de Proveedores</button>
+        <button onclick="window.location.href='Crud_productos.php'">Gestión de Productos</button>
+    </div>
+</body>
+</html>
